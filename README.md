@@ -3,7 +3,7 @@ These are settings I use in my Vim configuration on my Linux system. The goal wa
 
 ## Requirements
 * Latest version of Vim
-* Some Nerd compatible font (I use **Adwaita Mono Nerd Font Propo Regular**, you can find nerd fonts [here]([https://files.catbox.moe/vy2qcs.mp4](https://github.com/ryanoasis/nerd-fonts)))
+* Some Nerd compatible font (I use **Adwaita Mono Nerd Font Propo Regular**, you can find nerd fonts [here](https://github.com/ryanoasis/nerd-fonts)
 * These plugins:
   - 1
   - 2
