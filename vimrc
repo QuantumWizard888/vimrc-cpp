@@ -551,7 +551,7 @@ function! CompileAndRun() abort
 
     " Select compiler with -Wpedantic, -O3, and FORCE FULL COLOR OUTPUT ENABLED
     if l:file_ext ==# 'c'
-        let l:compiler = 'gcc -Wall -Wextra -Wpedantic -fdiagnostics-color=always -O3 -std=c11'
+        let l:compiler = 'gcc -Wall -Wextra -Wpedantic -fdiagnostics-color=always -O3 -std=gnu11'
     elseif l:file_ext ==# 'cpp'
         let l:compiler = 'g++ -Wall -Wextra -Wpedantic -fdiagnostics-color=always -O3 -std=c++20'
     else
